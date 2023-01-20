@@ -78,7 +78,7 @@ section#imagem-fidelidade {
 }
 
 div.texto {
-    background-color: rgba(0, 0, 0, 0.548);
+    background-color: rgba(0, 0, 0, 0.664);
     height: 40vh;
     text-align: center;
 }
@@ -96,7 +96,7 @@ div.texto > p {
 }
 
 section#imagem-rodizio {
-    background-image: url(../Imagens/sushi-rodizio.jpg);
+    background-image: url(../imagens/sushi-rodizio.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
