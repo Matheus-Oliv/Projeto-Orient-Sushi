@@ -17,78 +17,88 @@ Grandes telas: acima de 1200px*/
     padding: 0px;
     font-family: var(--font-texto)
 }
-
-@media screen and (max-width:768px) { /* Para tela de celular */
     
-    body {
-        background-color: black;
-    }
-
-    header {
-        background-color: white;
-    }
-
-    h1 {
-        text-align: center;
-    }
-
-    h1 > a {
-        font-size: 1.5em;
-        color: var(--cor01);
-        text-decoration: none;
-        text-shadow: 1px 0px black;
-    }
-
-    span.material-symbols-outlined {
-        background-color: black;
-        color: white;
-        display: block;
-        text-align: center;
-        padding: 10px;
-        cursor: pointer;
-        box-sizing: border-box;
-        border: 1px solid white;
-    }
-
-    span.material-symbols-outlined:hover {
-        background-color: var(--cor01);
-        color: black;
-    }
-
-    menu {
-        display: none;
-    }
-
-    menu > ul {
-        list-style: none;
-    }
-
-    menu > ul > li > a {
-        display: block;
-        color: var(--cor01);
-        text-decoration: none;
-        text-align: center;
-        font-size: 1.3em;
-        box-sizing: border-box;
-        border: 1px solid;
-        padding: 5px;
-    }
-
-    menu > ul > li > a:hover {
-        background-color: black;
-    }
-
-
-
+body {
+    background-color: black;
 }
 
-@media screen and (min-width:769px) { /* Para outras Telas */
-    
-    body {
-        background-color: white;
-    }
+header {
+    background-color: white;
+}
 
-    header {
-        background-color: var(--cor01);
-    }
+h1 {
+    text-align: center;
+}
+
+h1 > a {
+    font-size: 1.5em;
+    color: var(--cor01);
+    text-decoration: none;
+    text-shadow: 1px 0px black;
+}
+
+span.material-symbols-outlined {
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+span.material-symbols-outlined:hover {
+    background-color: var(--cor01);
+    color: black;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    color: var(--cor01);
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3em;
+    box-sizing: border-box;
+    border: 1px solid;
+    padding: 5px;
+}
+
+menu > ul > li > a:hover {
+    background-color: black;
+}
+
+section {
+    margin: 10px 0px;
+}
+
+div {
+    height: 200px; 
+}
+
+div#imagem-rodizio {
+    background-image: url(../imagens/sushi-rodizio.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+p {
+    color: white;
+    text-shadow: 1px 0px black;
+    background-color: rgba(128, 128, 128, 0.527);
+    text-align: center;
+}
+
+div#imagem-fidelidade {
+    background-image: url(../imagens/sushi.jpg);
+    background-size: cover;
+    background-position: center center;
 }
