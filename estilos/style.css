@@ -11,3 +11,71 @@ Grandes telas: acima de 1200px*/
     --cor02: #ffffff28; /*Fundo Cabeçalho*/
     --font-texto: 'Permanent Marker', cursive;
 }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font-texto)
+}
+
+@media screen and (max-width:768px) { /* Para tela de celular */
+    
+    body {
+        background-color: black;
+    }
+
+    header {
+        background-color: white;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    span.material-symbols-outlined {
+        background-color: grey;
+        color: white;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    span.material-symbols-outlined:hover {
+        background-color: var(--cor01);
+        color: black;
+    }
+
+    menu {
+        /*display: none;*/
+    }
+
+    menu > ul > li{
+        list-style: none;
+        background-color: white;
+        box-sizing: border-box;
+        border: 1px solid black;
+        margin: 10px 0px;
+        padding: 5px 0px;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--cor01);
+        text-shadow: 1px 0px black;
+    }
+
+
+}
+
+@media screen and (min-width:769px) { /* Para outras Telas */
+    
+    body {
+        background-color: white;
+    }
+
+    header {
+        background-color: var(--cor01);
+    }
+}
