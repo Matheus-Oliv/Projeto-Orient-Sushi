@@ -32,13 +32,22 @@ Grandes telas: acima de 1200px*/
         text-align: center;
     }
 
+    h1 > a {
+        font-size: 1.5em;
+        color: var(--cor01);
+        text-decoration: none;
+        text-shadow: 1px 0px black;
+    }
+
     span.material-symbols-outlined {
-        background-color: grey;
+        background-color: black;
         color: white;
         display: block;
         text-align: center;
         padding: 10px;
         cursor: pointer;
+        box-sizing: border-box;
+        border: 1px solid white;
     }
 
     span.material-symbols-outlined:hover {
@@ -47,24 +56,17 @@ Grandes telas: acima de 1200px*/
     }
 
     menu {
-        /*display: none;*/
+        display: none;
     }
 
-    menu > ul > li{
+    menu > ul {
         list-style: none;
-        background-color: white;
-        box-sizing: border-box;
-        border: 1px solid black;
-        margin: 10px 0px;
-        padding: 5px 0px;
-        text-align: center;
     }
 
-    a {
-        text-decoration: none;
-        color: var(--cor01);
-        text-shadow: 1px 0px black;
+    menu > ul > li > a {
+        display: block;
     }
+
 
 
 }
