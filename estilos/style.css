@@ -76,7 +76,7 @@ menu > ul > li > a:hover {
     background-color: black;
 }
 
-section {
+section.imagens {
     margin: 10px 0px;
 }
 
@@ -90,7 +90,7 @@ div#imagem-rodizio {
     background-position: center center;
 }
 
-p {
+p.rodizio-fidelidade {
     color: white;
     text-shadow: 1px 0px black;
     background-color: rgba(128, 128, 128, 0.527);
@@ -102,3 +102,6 @@ div#imagem-fidelidade {
     background-size: cover;
     background-position: center center;
 }
+
+
+
