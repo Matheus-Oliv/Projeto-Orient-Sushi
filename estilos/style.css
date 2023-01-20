@@ -65,6 +65,17 @@ Grandes telas: acima de 1200px*/
 
     menu > ul > li > a {
         display: block;
+        color: var(--cor01);
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.3em;
+        box-sizing: border-box;
+        border: 1px solid;
+        padding: 5px;
+    }
+
+    menu > ul > li > a:hover {
+        background-color: black;
     }
 
 
