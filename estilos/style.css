@@ -14,5 +14,33 @@ Grandes telas: acima de 1200px*/
 
 * {
     margin: 0px;
-    padding: 0px;
+}
+
+html, body {
+    background-color: black;
+    font-family: var(--font-texto);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.185);
+    min-width: 100vw;
+    height: 10vh;
+    
+}
+
+
+h1 > a, nav > ul > li > a {
+    color: var(--cor01);
+    text-decoration: none;
+}
+
+h1#logo {
+    text-shadow: 1px 0px white;
+    margin-left: 5%;
+}
+
+nav > ul > li {
+    list-style: none;
 }
