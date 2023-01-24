@@ -111,9 +111,10 @@ p.rodizio-fidelidade {
     background-color: rgba(128, 128, 128, 0.733);
     color: white;
     height: 100px;
-    font-size: 1.3em;
+    font-size: 1.4em;
     text-align: center;
-    text-shadow: 2px 1px black;
+    text-shadow: 1px 1px black;
+    font-weight: bolder;
 }
 
 
