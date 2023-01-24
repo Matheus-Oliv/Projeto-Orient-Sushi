@@ -96,7 +96,7 @@ div#imagem-rodizio {
 }
 
 div#imagem-fidelidade {
-    height: 300px;
+    height: 400px;
     background-image: url(../imagens/sushi-rodizio.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -120,6 +120,26 @@ p.rodizio-fidelidade {
 section#redes-sociais {
     background-color: white;
 }
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav > ul {
+    display: flex;
+    
+}
+
+li.rs, a.rsa {
+    list-style: none;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0 3px;
+}
+
 
 
 
