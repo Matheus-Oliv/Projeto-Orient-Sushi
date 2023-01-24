@@ -9,24 +9,28 @@ Grandes telas: acima de 1200px*/
 :root {
     --cor01: #ff6600; /*Fonte*/
     --cor02: #ffffff28; /*Fundo Cabeçalho*/
-    --font-texto: 'Permanent Marker', cursive;
+    --font-logo: 'Permanent Marker', cursive;
+    --font-texto:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 * {
     margin: 0px;
     padding: 0px;
-    font-family: var(--font-texto)
 }
     
 body {
     background-color: black;
+    font-family:var(--font-texto);
 }
+
+/*Cabeçalho*/
 
 header {
     background-color: white;
 }
 
 h1 {
+    font-family: var(--font-logo);
     text-align: center;
 }
 
@@ -76,32 +80,40 @@ menu > ul > li > a:hover {
     background-color: black;
 }
 
-section.imagens {
-    margin: 10px 0px;
-}
+/* Corpo */
 
-div {
-    height: 200px; 
+section.imagens {
+    background-color: white;
+    margin: 10px 0;
 }
 
 div#imagem-rodizio {
-    background-image: url(../imagens/sushi-rodizio.jpg);
+    height: 300px;
+    background-image: url(../imagens/sushi.jpg);
     background-size: cover;
-    background-position: center center;
-}
-
-p.rodizio-fidelidade {
-    color: white;
-    text-shadow: 1px 0px black;
-    background-color: rgba(128, 128, 128, 0.527);
-    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 div#imagem-fidelidade {
-    background-image: url(../imagens/sushi.jpg);
+    height: 300px;
+    background-image: url(../imagens/sushi-rodizio.jpg);
     background-size: cover;
-    background-position: center center;
+    background-repeat: no-repeat;
 }
 
+p.rodizio-fidelidade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 35%;
+    background-color: rgba(128, 128, 128, 0.733);
+    color: white;
+    height: 100px;
+    font-size: 1.3em;
+    text-align: center;
+    text-shadow: 2px 1px black;
+}
 
 
