@@ -180,6 +180,11 @@ li.rs, a.rsa {
         padding: 5px;
     }
 
+    .itens > p {
+        font-size: .7em;
+        text-align: center;
+    }
+    
 }
 
 @media screen and (min-width: 769px) { /*PARA DISP. GRANDES*/
@@ -263,6 +268,7 @@ section.Cardapio > h2 {
 }
 
 .itens > p {
+    margin: 0 10px;
     text-align: center;
 }
 
