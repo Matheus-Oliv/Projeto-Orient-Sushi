@@ -6,6 +6,8 @@ Tablet: de 769px até 992px
 Desktop: 992px até 1200px
 Grandes telas: acima de 1200px*/
 
+
+/* GERAIS */
 :root {
     --cor01: #ff6600; /*Fonte*/
     --cor02: #ffffff28; /*Fundo Cabeçalho*/
@@ -87,9 +89,7 @@ li.rs, a.rsa {
 }
 
 
-
-/*Cabeçalho*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) { /*PARA DISP. PEQUENOS*/
     
     span.material-symbols-outlined {
         background-color: black;
@@ -174,7 +174,7 @@ li.rs, a.rsa {
 
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) { /*PARA DISP. GRANDES*/
 
     span.material-symbols-outlined {
         display: none;
@@ -225,6 +225,13 @@ li.rs, a.rsa {
         font-weight: bolder;
     }
 
+}
+
+h2 {
+    color: white;
+    background-color: var(--cor01);
+    padding: 10px;
+    text-align: center;
 }
 
 
