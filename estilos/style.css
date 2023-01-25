@@ -18,11 +18,13 @@ Grandes telas: acima de 1200px*/
 * {
     margin: 0px;
     padding: 0px;
+    
 }
     
 body {
     background-color: black;
     font-family:var(--font-texto);
+    
 }
 
 header {
@@ -88,6 +90,22 @@ li.rs, a.rsa {
     margin: 0 3px;
 }
 
+section.Cardapio > h2 {
+    color: white;
+    background-color: var(--cor01);
+    padding: 10px;
+    text-align: center;
+}
+
+.Cardapio {
+    background-color: black;
+}
+
+.itens > p {
+    margin: 0 10px;
+    text-align: justify;
+}
+
 
 @media screen and (max-width: 768px) { /*PARA DISP. PEQUENOS*/
     
@@ -129,9 +147,7 @@ li.rs, a.rsa {
     menu > ul > li > a:hover {
         background-color: black;
     }
-    
-    /* Corpo */
-    
+        
     p.rodizio-fidelidade {
         display: flex;
         align-items: center;
@@ -184,7 +200,25 @@ li.rs, a.rsa {
         font-size: .7em;
         text-align: justify;
     }
+
+    .Cardapio > div > a {
+        background-color: #ff6600;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 0 15px 0 0;
+        font-size: .6em;
+        text-decoration: none;
+    }
     
+    .itens {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (min-width: 769px) { /*PARA DISP. GRANDES*/
@@ -245,36 +279,24 @@ li.rs, a.rsa {
         box-sizing: border-box;
         margin: 10px 0;
         padding: 5px;
-        width: 70%;
+        width: 100%;
     }
 
+    .Cardapio > div > a {
+        background-color: #ff6600;
+        color: white;
+        padding: 15px;
+        border-radius: 10px;
+        margin: 0 15px 0 0;
+        font-weight: bold;
+    }
+
+    .itens {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        font-size: 1.2em;
+    }
 }
-
-section.Cardapio > h2 {
-    color: white;
-    background-color: var(--cor01);
-    padding: 10px;
-    text-align: center;
-}
-
-.Cardapio {
-    background-color: black;
-}
-
-.itens {
-    display: flex;
-    align-items: center;
-    font-size: 1.2em;
-}
-
-.itens > p {
-    margin: 0 10px;
-    text-align: justify;
-}
-
-span {
-    background-color: #ff6600;
-}
-
-
 
