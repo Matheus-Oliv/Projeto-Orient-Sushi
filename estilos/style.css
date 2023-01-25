@@ -172,6 +172,14 @@ li.rs, a.rsa {
         margin: 0 3px;
     }
 
+    .itens {
+        background-color: white;
+        border:1px solid var(--cor01);
+        box-sizing: border-box;
+        margin: 10px 0;
+        padding: 5px;
+    }
+
 }
 
 @media screen and (min-width: 769px) { /*PARA DISP. GRANDES*/
@@ -205,9 +213,10 @@ li.rs, a.rsa {
         color: black;
     }
 
-    li:hover {
+    menu#itens > ul > li:hover, menu#itens > ul > li > a:hover {
         background-color:var(--cor01);
         border-radius: 5px;
+        color: white;
     }
 
     p.rodizio-fidelidade {
@@ -225,12 +234,35 @@ li.rs, a.rsa {
         font-weight: bolder;
     }
 
+    .itens {
+        background-color: white;
+        border:1px solid var(--cor01);
+        box-sizing: border-box;
+        margin: 10px 0;
+        padding: 5px;
+        width: 80%;
+    }
+
 }
 
-h2 {
+section.Cardapio > h2 {
     color: white;
     background-color: var(--cor01);
     padding: 10px;
+    text-align: center;
+}
+
+.Cardapio {
+    background-color: black;
+}
+
+.itens {
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+.itens > p {
     text-align: center;
 }
 
