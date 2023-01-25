@@ -40,6 +40,42 @@ h1 > a {
     text-shadow: 1px 0px black;
 }
 
+section.imagens {
+    background-color: white;
+    margin: 10px 0;
+    width: 100%;
+}
+
+div#imagem-rodizio {
+    height: 400px;
+    background-image: url(../imagens/sushi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div#imagem-fidelidade {
+    height: 400px;
+    background-image: url(../imagens/sushi-rodizio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p.rodizio-fidelidade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 35%;
+    background-color: rgba(128, 128, 128, 0.733);
+    color: white;
+    height: 100px;
+    font-size: 1.3em;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    font-weight: bolder;
+}
+
 /*Cabeçalho*/
 @media screen and (max-width: 768px) {
     
@@ -84,41 +120,7 @@ h1 > a {
     
     /* Corpo */
     
-    section.imagens {
-        background-color: white;
-        margin: 10px 0;
-        width: 100%;
-    }
     
-    div#imagem-rodizio {
-        height: 300px;
-        background-image: url(../imagens/sushi.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    
-    div#imagem-fidelidade {
-        height: 400px;
-        background-image: url(../imagens/sushi-rodizio.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    p.rodizio-fidelidade {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        top: 35%;
-        background-color: rgba(128, 128, 128, 0.733);
-        color: white;
-        height: 100px;
-        font-size: 1.3em;
-        text-align: center;
-        text-shadow: 1px 1px black;
-        font-weight: bolder;
-    }
     
     
     section#redes-sociais {
@@ -181,13 +183,6 @@ h1 > a {
     li:hover {
         background-color:var(--cor01);
         border-radius: 5px;
-    }
-
-    section.imagens {
-        background-color: white;
-        width: 100%;
-        height: 40vh;
-        margin: 20px 0;
     }
 
 }
