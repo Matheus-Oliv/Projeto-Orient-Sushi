@@ -182,7 +182,7 @@ li.rs, a.rsa {
 
     .itens > p {
         font-size: .7em;
-        text-align: center;
+        text-align: justify;
     }
     
 }
@@ -245,7 +245,7 @@ li.rs, a.rsa {
         box-sizing: border-box;
         margin: 10px 0;
         padding: 5px;
-        width: 80%;
+        width: 70%;
     }
 
 }
@@ -269,9 +269,12 @@ section.Cardapio > h2 {
 
 .itens > p {
     margin: 0 10px;
-    text-align: center;
+    text-align: justify;
 }
 
+span {
+    background-color: #ff6600;
+}
 
 
 
