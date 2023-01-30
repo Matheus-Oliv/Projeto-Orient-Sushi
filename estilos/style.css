@@ -33,7 +33,7 @@ header {
 }
 
 h1 {
-    font-family: var(--font-logo);
+    font-family: var(--font-texto);
     text-align: center;
 }
 
@@ -193,21 +193,22 @@ section.Cardapio > h2 {
         border:1px solid var(--cor01);
         box-sizing: border-box;
         margin: 10px 0;
-        padding: 5px;
+        padding: 15px;
     }
 
     .itens > p {
-        font-size: .7em;
+        font-size: 1.1em;
+        padding: 5px;
         text-align: justify;
     }
 
     .Cardapio > div > a {
         background-color: #ff6600;
         color: white;
-        padding: 10px;
+        padding: 15px;
         border-radius: 10px;
-        margin: 0 15px 0 0;
-        font-size: .6em;
+        margin: 10px 15px;
+        font-size: 1em;
         text-decoration: none;
     }
     
@@ -215,7 +216,7 @@ section.Cardapio > h2 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: center;
         font-size: 1.2em;
     }
